@@ -1,0 +1,111 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #777;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 0;
+  width: 100vw;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  margin: 10vw;
+  width: 80vw;
+  max-height: 100%;
+}
+
+.search-result {
+  overflow-y: auto; /* Enable vertical scrolling */
+  flex: 1 1;
+  margin-top: 10px;
+  padding-right: 10px; /* Ensure space for scrollbar */
+  max-height: 60%; /* Limit max height of chat history section */
+}
+
+.surprise {
+  background-color: #ececf1;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 0 0 2px 5px;
+  padding: 4px 12px;
+}
+
+.surprise:hover {
+  background-color: #ddd;
+}
+
+.input-container {
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px #00005226;
+  box-sizing: border-box;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.input-container input {
+  border: none;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 200;
+  outline: none;
+  padding: 13px 14px;
+  width: 90%;
+}
+
+.input-container input::placeholder {
+  color: #cacaca;
+  font-weight: 200;
+}
+
+.input-container button {
+  background-color: #fff;
+  border: none;
+  border-left: 1px solid #cacaca;
+  color: #777;
+  cursor: pointer;
+  font-weight: 700;
+  min-width: 10%;
+}
+
+.input-container button:active {
+  background-color: #cacaca;
+}
+
+.answer {
+  background-color: #fff;
+  border: 0.5px solid #cacaca;
+  border-radius: 6px;
+  font-weight: 200;
+  margin: 5px;
+  padding: 13px 14px;
+  word-wrap: break-word;
+}
+
+.error {
+  color: red;
+}
+
+
+/*# sourceMappingURL=styles.css.map*/
